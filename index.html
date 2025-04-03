@@ -54,8 +54,7 @@
         (function() {
             // Extract the path from the current URL
             var path = window.location.pathname;
-            
-            // Redirect to index.html and pass the original path as a query parameter
+            if(path!=='/Portfolio')
             window.location.replace("/Portfolio");
         })();
     </script>
