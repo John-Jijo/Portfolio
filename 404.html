@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <script>
+      // Redirect to index.html, preserving the path
+      console.log("redirect")
+      const redirectTo = '/#' + window.location.pathname + window.location.search + window.location.hash;
+      window.location.replace(redirectTo);
+    </script>
+  </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
+</html>
